@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+  font-display: auto;
+  src: url('assets/fonts/Montserrat-ExtraLight.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat-Light';
+  font-display: auto;
+  src: url('assets/fonts/Montserrat-Light.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-display: auto;
+  src: url('assets/fonts/Montserrat-Regular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  font-display: auto;
+  src: url('assets/fonts/Montserrat-Bold.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat-Black';
+  font-display: auto;
+  src: url('assets/fonts/Montserrat-Black.otf') format('truetype');
+}
+
+
+.post-co{
+  max-width: 92.71vw;
+  padding: 0 1.39vw;
+  border-color: red;
+  display: flex;
+}
+
+.outerBox{
+  min-height: 10vw;
+  width: 72.4%;
+  position: relative;
+  padding-right: 1.25vw;
+  margin-top: 2.7vw;
+  border: 3px solid purple;
+}
+
+.blogRight{
+  padding-left: 1.25vw;
+  width: 27.6%;
+  margin-top: 2.7vw;
+}
+/* delete everything above it, everything above it
+are rulles for fake post-co box */
+/* component CSS starts here */
+h1 a {
+    color: #505050;
+    margin-top: 6%;
+    font-size: 2.65rem;
+    font-family: 'Montserrat-Black';
+    text-decoration: none;
+}
+
+.feedBacks{
+  border-color: yellow;
+  width: 100%;
+}
+.textBox{
+  margin-bottom: 5vw;
+}
+
+.textBox p,.userFeedBackText{
+  /* line-height: 30px; */
+  text-align: justify;
+  color: #404143;
+  font-family: "Montserrat-Light";
+  font-size: 1.3vw;
+}
+
+.dinamycDivBox{
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.singleDinamicDiv{
+  border-color: red;
+  border-bottom: 8px solid rgb(240,240,240);
+  margin-bottom: 5vw;
+}
+
+.imgNameDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.userImage{
+  margin-right: 1.5vw;
+  width: 4vw;
+  height: 4vw;
+  background-image: url('assets/img/profile.jpg');
+  background-size: 100% 100%;
+}
+
+.userName{
+  font-size: 1.2vw;
+  margin: 0;
+  position: relative;
+  color: #404143;
+  top: -6px;
+  font-family: 'Montserrat-Light';
+}
+
+.userFeedBackText p{
+  margin-bottom: 0;
+}
+
+.userPostTime{
+  font-size: 0.9vw;
+  color: #909090;
+  margin: 0;
+}
+
+.scoreFeedBack span{
+  position: relative;
+  top: 0.2vw;
+  font-size: 1.5vw;
+}
+.scoreFeedBack p{
+  margin:0;
+  font-size: 1vw;
+}
+
+#positiveIcon p{
+  color: rgb(5,198,0);
+}
+
+#negativeIcon p{
+  color: rgb(237,11,32);
+}
